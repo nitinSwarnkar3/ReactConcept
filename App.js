@@ -1,4 +1,5 @@
-
+import React from "react";
+import ReactDOM from "react-dom/client"
 
 
 
@@ -11,7 +12,7 @@ const parent = React.createElement(
         [React.createElement(
             "h1",
             { id: "heading" },
-            "h1 tag"
+            "Hello My name is Anthony"
         ), React.createElement(
             "h2",
             { id: "heading" },

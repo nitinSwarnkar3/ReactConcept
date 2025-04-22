@@ -1,5 +1,31 @@
 {
   "devDependencies": {
+    "parcel": "^2.14.4",
     "prettier": "3.5.3"
+  },
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is React concepts from scratch",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitinSwarnkar3/ReactConcept.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "npm"
+  ],
+  "author": "Nitin Swarnkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitinSwarnkar3/ReactConcept/issues"
+  },
+  "homepage": "https://github.com/nitinSwarnkar3/ReactConcept#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
