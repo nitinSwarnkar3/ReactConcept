@@ -50,14 +50,13 @@ NOTE:- Here we do not give class = "head" . In JSX we have to give className.If 
 
 # React Components
 
-//Class Based Component ---> Old
-//Function Based Component -----> New
+# Class Based Component ---> Old
+# Function Based Component -----> New
 
 # React Functional Components -----> A function which is returning a react element it becomes a functional components. A normal Javascript function
 
 # How to render a functional component to root.render();
 
-=====>
 const HeadingComponent = () => {
 return <h1> Namaste React from Functional Components </h1>
 }
@@ -69,12 +68,12 @@ root.render(<HeadingComponent />); =====> This is the syntax
 When we put 1 Component into another Component is known as Component Composition
 Example:-
 
-// const Title = () => (
+const Title = () => (
 
 <h1 className="Title"> This is a Title </h1>
 );
 
-// const Heading = () => (
+const Heading = () => (
 
 <Title /> -------- Component Composition
 <h1 className="Head"> This is a Heading</h1>
@@ -86,7 +85,7 @@ Example:-
 # For example :-
 
 const number = 10000
-// const Heading = () => (
+const Heading = () => (
 { 100 + 200} --------> This is javascript code
 {number} -------------> This is javascript code
 
